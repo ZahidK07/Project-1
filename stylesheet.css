@@ -1,0 +1,1107 @@
+body{
+    margin: auto;
+}  
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#navbarh1{
+    color: rgb(236, 33, 74);
+    margin-left: 4%;
+    font-size: 50px;
+    margin-top: 0%;
+}
+
+.navbar{
+    border-radius: 0px;
+}
+
+.navbar-inverse{
+    margin-bottom: 0px;
+}
+
+
+#social {
+    float: right;
+    margin-right: 3%;
+    margin-top: -5%
+}
+
+.SocialLogos {
+    height: 40px;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#Search {
+    height: 450px;
+    background-image: url(FoodCoverjpg.jpg);
+    background-size: cover;
+    background-size: 100% 600px;
+}
+/*------Cover Pic-------*/
+
+/*------Circled Logo-------*/
+#logo {
+    background-color: #202020;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 43%;
+    font-size: 75px;
+    color: rgb(236, 33, 74);
+    animation: movelogo 20s infinite;
+} 
+
+@keyframes movelogo {
+    0% {margin-left: 45%;}
+    25% {margin-left: 0%;}
+    50% {margin-left: 45%;}
+    70% {margin-left: 85%;}
+    100% {margin-left: 45%;}
+}
+
+#logo > span {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+
+
+/*------Circled Logo-------*/
+
+/*------Cover Heading Title-------*/
+#heading {
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 7.5%;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+} 
+/*------Cover Heading Title-------*/
+
+/*------Drop Down Selections-------*/
+
+.Dropdowns{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 28%;
+    
+}
+
+.custom-select{
+    width: 400px;
+    height: 50px;
+    border-radius: 12px
+}
+
+/*------Drop Down Selections-------*/
+
+/*------Quick Search and All Meals-------*/
+#QuickSearch {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 35%;
+    display: inline-block;
+}
+
+            /*------Quick Heading-------*/
+.QuickHeading {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #202020;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: -3%;
+}
+            /*------Quick Heading-------*/
+
+            /*------Quick SubHeading-------*/
+.QuickSubHeading {
+    line-height: 1;
+    font-size: 20px;
+    color: rgb(1, 1, 173);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: -3%;
+    font-weight: bold;
+    display: block;
+}
+            /*------Quick SubHeading-------*/
+
+
+.cbox{
+    margin-top: 2%;
+}
+
+/*.row{
+    border: solid 2px rgb(136, 14, 173);
+}*/
+
+.AllMeal {
+    margin-left: 6%;
+    width: 95%;
+}
+
+.ComponentHeading1{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+    margin-left: 58%;
+    margin-top: -54%;
+    font-size: 22px;
+}
+
+.ComponentHeading1 > a{
+    text-decoration-line: none;
+}
+
+#BreakfastHeading {
+    margin-left: 60%;
+    margin-top: 15%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+}
+
+#Breakfast{
+    height: 200px;
+    margin-left: -5%;
+    box-shadow: 10px 20px 10px grey;
+    background-color: #202020;
+}
+
+#Breakfast:hover{
+    transform: scale(1.1);
+}
+
+#Breakfast > img {
+    height: 200px;
+    width: 60%;
+    margin-left: -5%;
+    
+}
+
+.ComponentHeading2{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+    margin-left: 58%;
+    margin-top: -54%;
+    font-size: 22px;
+}
+
+.ComponentHeading2 > a{
+    text-decoration-line: none;
+}
+
+#LunchHeading {
+    margin-left: 60%;
+    margin-top: 15%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+}
+
+#Lunch{
+    height: 200px;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px grey;
+    background-color: #202020;
+}
+
+#Lunch:hover{
+    transform: scale(1.1);
+}
+
+#Lunch > img{
+    height: 200px;
+    width: 60%;
+    margin-left: -4%;
+}
+
+.ComponentHeading3{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+    margin-left: 58%;
+    margin-top: -54%;
+    font-size: 22px;
+}
+
+.ComponentHeading3 > a{
+    text-decoration-line: none;
+}
+
+#SnacksHeading {
+    margin-left: 60%;
+    margin-top: 15%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+}
+
+#Snacks{
+    height: 200px;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px grey;
+    background-color: #202020;
+}
+
+#Snacks:hover{
+    transform: scale(1.1);
+}
+
+#Snacks > img{
+    height: 200px;
+    width: 60%;
+    margin-left: -5%;
+}
+
+.ComponentHeading4{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+    margin-left: 58%;
+    margin-top: -54%;
+    font-size: 22px;
+}
+
+.ComponentHeading4 > a{
+    text-decoration-line: none;
+}
+
+#DinnerHeading {
+    margin-left: 60%;
+    margin-top: 15%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+}
+
+#Dinner{
+    height: 200px;
+    margin-left: -5%;
+    margin-top: 2%;
+    box-shadow: 10px 20px 10px grey;
+    background-color: #202020;
+}
+
+#Dinner:hover{
+    transform: scale(1.1);
+}
+
+#Dinner > img{
+    height: 200px;
+    width: 60%;
+    margin-left: -4%;
+}
+
+.ComponentHeading5{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+    margin-left: 58%;
+    margin-top: -54%;
+    font-size: 22px;
+}
+
+.ComponentHeading5 > a{
+    text-decoration-line: none;
+}
+
+#FastfoodHeading{
+    margin-left: 60%;
+    margin-top: 15%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+}
+
+#PizzaBurger{
+    height: 200px;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 10px 20px 10px grey;
+    background-color: #202020;
+}
+
+#PizzaBurger:hover{
+    transform: scale(1.1);
+}
+
+#PizzaBurger > img{
+    height: 200px;
+    width: 60%;
+    margin-left: -4%;
+}
+
+.ComponentHeading6{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+    margin-left: 58%;
+    margin-top: -54%;
+    font-size: 22px;
+}
+
+.ComponentHeading6 > a{
+    text-decoration-line: none;
+}
+
+#NightLifeHeading {
+    margin-left: 60%;
+    margin-top: 15%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(241, 23, 23);
+}
+
+#NightLife{
+    height: 200px;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 10px 20px 10px grey;
+    background-color: #202020;
+}
+
+#NightLife:hover{
+    transform: scale(1.1);
+}
+
+#NightLife > img{
+    height: 200px;
+    width: 60%;
+    margin-left: -4%;
+}
+
+.Footer{
+    background-color:  #202020;
+    height: 50px;
+    color: honeydew;     
+}
+
+#Footer{
+    margin-top: 5%;
+    margin-left: 41%;
+    padding-top: 15px;
+}
+
+
+
+@media only screen and (max-width:1024px){
+
+#navbarh1 {
+    margin-left: 6%;
+    font-size: 45px;
+}    
+
+#social {
+    margin-top: -6%;
+}  
+
+.SocialLogos {
+    height: 35px;
+    padding: 2px;
+}
+
+#heading {
+    margin-top: 22%;
+    margin-left: 1.7%;
+    font-size: 59px;
+}
+
+#logo {
+    animation: movelogo 20s infinite;
+} 
+
+@keyframes movelogo {
+    2% {margin-left: 43%;}
+    25% {margin-left: 2%;}
+    50% {margin-left: 43%;}
+    70% {margin-left: 82%;}
+    100% {margin-left: 43%;}
+}
+   
+#QuickSearch {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 45%;
+    display: inline-block;
+}
+.Dropdowns {
+    margin-left: 11%;
+    margin-top: 36%;
+}
+
+.ComponentHeading1 {
+    margin-top: -65%;
+}
+
+#BreakfastHeading {
+    margin-top: 18%;
+}
+
+.ComponentHeading2 {
+    margin-top: -65%;
+}
+
+#LunchHeading {
+    margin-top: 16%;
+}
+
+.ComponentHeading3 {
+    margin-top: -65%;
+}
+
+#SnacksHeading {
+    margin-top: 17%;
+}
+
+.ComponentHeading4 {
+    margin-top: -65%;
+}
+
+#DinnerHeading {
+    margin-top: 22%;
+}
+
+
+.ComponentHeading5 {
+    margin-top: -65%;
+}
+
+#FastfoodHeading {
+    margin-top: 12%;
+}
+
+.ComponentHeading6 {
+    margin-top: -65%;
+}
+
+#NightLifeHeading {
+    margin-top: 21%;
+}
+
+}
+
+
+@media only screen and (max-width:768px){    
+
+#logo {
+    height: 100px;
+    width: 100px;
+    font-size: 52px;
+    animation: none;
+} 
+
+#Search {
+    height: 330px;
+    background-image: url(FoodCoverjpg.jpg);
+    background-size: cover;
+    background-size: 100% 420px;
+}
+
+#heading {
+    font-size: 44px;
+    margin-left: 1%;
+}
+
+.Dropdowns {
+    margin-left: 9%;
+    margin-top: 34%;
+}
+
+.custom-select {
+    width: 315px;
+    height: 50px;
+}
+
+#QuickSearch {
+    margin-top: 45%;
+}
+
+.ComponentHeading1 {
+    margin-top: -59%;
+}
+
+   
+
+.ComponentHeading2 {
+    margin-top: -59%;
+}
+
+#Lunch {
+    height: 195px;
+    margin-top: 1%;
+} 
+
+#Lunch > img {
+    height: 195px;
+}
+
+#Snacks {
+    margin-left: -5%;
+    margin-top: 4%;
+}
+
+.ComponentHeading3 {
+    margin-top: -59%;
+}
+
+#Dinner {
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+.ComponentHeading4 {
+    margin-top: -59%;
+}
+
+#PizzaBurger {
+    margin-left: -5%;
+     margin-top: 4%;
+}
+
+.ComponentHeading5 {
+    margin-top: -59%;
+    
+}
+
+#NightLife{
+    height: 195px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+#NightLife > img {
+    height: 195px;
+}
+
+.ComponentHeading6 {
+    margin-top: -59%;
+}
+
+#Footer {
+    margin-top: 10%;
+    margin-left: 35%;
+    padding-top: 15px;
+}
+
+}
+
+@media only screen and (max-width:450px){
+
+#navbarh1 {
+    margin-left: 3%;
+    margin-top: -1%;
+    font-size: 35px;
+}
+
+#social {
+    margin-top: -8%;
+}
+
+.SocialLogos {
+    height: 20px;
+    padding: 1px;
+    margin-top: -12%;
+}
+
+#Search {
+    height: 250px;
+    background-image: url(FoodCoverjpg.jpg);
+    background-size: cover;
+    background-size: 100% 250px;
+}
+
+#logo {
+    margin-left: 41%;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    animation: none;
+}
+
+#heading {
+    font-size: 22px;
+    margin-left: 2.5%;
+    margin-top: 26%;
+}
+
+#QuickSearch {
+    margin-top: 65%;
+}
+
+.QuickHeading {
+    margin-left: 0%;
+}
+
+.QuickSubHeading {
+    margin-left: 0%;
+}
+
+.Dropdowns {
+    margin-left: 6%;
+    margin-top: 45%;
+}
+
+.custom-select {
+    width: 170px;
+    height: 40px;
+}
+
+.ComponentHeading1 {
+    margin-top: -55%;
+}
+
+#Breakfast {
+    margin-left: 4%;
+    width: 90%;
+}
+
+#Breakfast > img {
+    margin-left: -5%;
+}
+
+.ComponentHeading2{
+    margin-top: -55%;
+}
+
+#Lunch{
+    margin-left: 4%;
+    width: 90%;
+    margin-top: 4%;
+}
+
+#Lunch > img {
+    margin-left: -5%;
+}
+
+.ComponentHeading3{
+    margin-top: -55%;
+}
+
+#Snacks{
+    margin-left: 4%;
+    width: 90%;
+    margin-top: 4%;
+}
+
+#Snacks > img {
+    margin-left: -5%;
+}
+
+.ComponentHeading4{
+    margin-top: -55%;
+}
+
+#Dinner{
+    margin-left: 4%;
+    width: 90%;
+    margin-top: 4%;
+}
+
+#Dinner > img {
+    margin-left: -5%;
+}
+
+.ComponentHeading5{
+    margin-top: -55%;
+}
+
+#PizzaBurger{
+    margin-left: 4%;
+    width: 90%;
+    margin-top: 4%;
+}
+
+#PizzaBurger > img {
+    height: 198px;
+    width: 60%;
+    margin-left: -5%;
+}
+
+.ComponentHeading6{
+    margin-top: -55%;
+}
+
+#NightLife{
+    margin-left: 4%;
+    width: 90%;
+    margin-top: 4%;
+}
+
+#NightLife > img {
+    height: 195px;
+    width: 60%;
+    margin-left: -5%;
+}
+
+#Footer {
+    margin-top: 10%;
+    margin-left: 23%;
+    padding-top: 15px;
+}
+
+}
+
+@media only screen and (max-width:375px){
+
+#logo {
+    margin-left: 43%;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+}
+
+#heading {
+    font-size: 21px;
+    margin-left: 3%;
+    margin-top: 26%;
+}
+
+#Search {
+    height: 220px;
+    background-image: url(FoodCoverjpg.jpg);
+    background-size: cover;
+    background-size: 100% 220px;
+}
+
+.Dropdowns {
+    margin-left: 14%;
+    margin-top: 47%;
+}
+
+.custom-select {
+    width: 135px;
+    height: 35px;
+}
+
+#QuickSearch {
+    margin-top: 70%;
+}
+
+.QuickHeading {
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.QuickSubHeading {
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.AllMeal {
+    margin-left: 3%;
+    width: 95%;
+}
+
+.ComponentHeading1 {
+    margin-top: -55%;
+}
+
+#Breakfast {
+    margin-left: 2%;
+    width: 95%;
+    height: 180px;
+}
+
+#Breakfast > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+#BreakfastHeading {
+    margin-top: 10%;
+}
+
+.ComponentHeading2 {
+    margin-top: -55%;
+}
+
+#Lunch{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#Lunch > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+#LunchHeading {
+    margin-top: 10%;
+}
+
+.ComponentHeading3 {
+    margin-top: -55%;
+}
+
+#Snacks{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#Snacks > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+.ComponentHeading4 {
+    margin-top: -55%;
+}
+
+#Dinner{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#Dinner > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+.ComponentHeading5 {
+    margin-top: -55%;
+}
+
+#PizzaBurger{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#PizzaBurger > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+.ComponentHeading6 {
+    margin-top: -55%;
+}
+
+#NightLife{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#NightLife > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+#NightLifeHeading {
+    margin-top: 18%;
+}
+
+#Footer {
+    margin-top: 12%;
+    margin-left: 30%;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+}
+
+@media only screen and (max-width:320px){
+
+#logo {
+    margin-left: 43%;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+}
+
+#heading {
+    font-size: 18px;
+    margin-left: 3%;
+    margin-top: 26%;
+}
+
+#Search {
+    height: 220px;
+    background-image: url(FoodCoverjpg.jpg);
+    background-size: cover;
+    background-size: 100% 220px;
+}
+
+.Dropdowns {
+    margin-left: 8%;
+    margin-top: 47%;
+}
+
+.custom-select {
+    width: 135px;
+    height: 35px;
+}
+
+#QuickSearch {
+    margin-top: 70%;
+}
+
+.QuickHeading {
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.QuickSubHeading {
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.AllMeal {
+    margin-left: 3%;
+    width: 95%;
+}
+
+.ComponentHeading1 {
+    margin-top: -65%;
+}
+
+#Breakfast {
+    margin-left: 2%;
+    width: 95%;
+    height: 180px;
+}
+
+#Breakfast > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+#BreakfastHeading {
+    margin-top: 10%;
+}
+
+.ComponentHeading2 {
+    margin-top: -65%;
+}
+
+#Lunch{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#Lunch > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+#LunchHeading {
+    margin-top: 10%;
+}
+
+.ComponentHeading3 {
+    margin-top: -65%;
+}
+
+#Snacks{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#Snacks > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+.ComponentHeading4 {
+    margin-top: -65%;
+}
+
+#Dinner{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#Dinner > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+.ComponentHeading5 {
+    margin-top: -65%;
+}
+
+#PizzaBurger{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#PizzaBurger > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+.ComponentHeading6 {
+    margin-top: -65%;
+}
+
+#NightLife{
+    margin-left: 2%;
+    width: 95%;
+    margin-top: 6%;
+    height: 180px;
+}
+
+#NightLife > img {
+    height: 180px;
+    width: 60%;
+    margin-left: -5.5%;
+}
+
+#NightLifeHeading {
+    margin-top: 18%;
+}
+
+#Footer {
+    margin-top: 12%;
+    margin-left: 30%;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+}
+

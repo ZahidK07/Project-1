@@ -47,3 +47,11 @@ function closeBtn(){
 }
 
 /*----------------------- Home Coupon Banner-------------------*/
+
+
+/*----------------------- Dark Mode-------------------*/
+function changeMode(){
+    var myBody = document.body;
+    myBody.classList.toggle('dark')
+}
+/*----------------------- Dark Mode-------------------*/

@@ -1,0 +1,8 @@
+#coupan{
+    width: 400px;
+    height: 200px;
+    border: solid 5px black;
+    background: grey;
+    visibility: hidden;
+    z-index: 99;
+}

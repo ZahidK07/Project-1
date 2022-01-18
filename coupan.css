@@ -1,8 +1,26 @@
 #coupan{
+    width: 100px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 99;
+    margin-left: 22.5%;
+    border-radius: 5px;
+    
+}
+
+#btn{
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    background: #0e0d0d;
+    color: #fdfbfb;
+    position: absolute;
+    z-index: 99;
+    margin-top: -19.5rem;
+}
+
+#Offer > img{
     width: 400px;
     height: 200px;
-    border: solid 5px black;
-    background: grey;
-    visibility: hidden;
-    z-index: 99;
+    margin-top: 1%;
 }

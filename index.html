@@ -17,6 +17,7 @@
     
 
     <body>
+      
         <div class="container-fluid">
             <nav class="navbar navbar-inverse">
                 <div>
@@ -60,7 +61,10 @@
 
             </nav>
         </div>
-
+          <div id="coupan">
+            <button onClick="closeBtn()" id="btn">&times;</button>
+            <img src="./CouponOff.jpg" alt="Offer" id="Offer">
+        </div>
 
         <div id="Search">
             <!--Search Starts-->
@@ -72,10 +76,10 @@
             </div>
             <div class="Dropdowns">
                 <div>
-                    <select id="city" onChange="getHotel()" class="custom-select" >
+                    <select id="city" onChange="getHotel()" class="custom-select1" >
                      
                     </select>
-                    <select id="hotels" class="custom-select" >
+                    <select id="hotels" class="custom-select2" >
                      
                     </select>
                 </div>
@@ -164,6 +168,7 @@
             <script>
                 window.onload=getCity()
                 window.onload=getHotel()
+                window.onload = openOffer()
             </script>
     </body>
 

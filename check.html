@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./check.css">
+        <title>Responsive</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark border border-1">
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger" href="#">Zomato</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row mt-5">
+                <div id="ImageTile" class="col-xl-6 col-lg-7 col-md-9 col-sm-12 col-11 border border-2">
+                </div>
+                <div id="InfoTile" class="col-xl-6 col-lg-7 col-md-9 col-sm-12 col-11 border border-2 bg-dark">
+                    <div class="card bg-light">
+                        <div id="RestoHeader"           class="card-title">
+                            <h2 class="text-center text-danger">Amrut Sagar Veg</h2>
+                        </div>
+                    </div>
+                    <div class="DeliveryReviews mt-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p class="text-white">149 Delivery Reviews</p>
+                    </div>
+                    <div class="CustReveiws mt-2">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <p class="text-white">225 Customer Reviews</p>
+                    </div>
+                    <div class="MealName">
+                        <h4 class="text-center text-danger">Stuffed Cheela With Chutneys</h4>
+                    </div>
+                    <div class="text-center Pricing">
+                        <h5 class="text-white OldPrice"><strike>Old Price 210 Rs</strike></h5>
+                        <h4 class="Price" style="color: rgb(96, 250, 96);">After Discount 160 Rs</h4>
+                        <h5 id="Discount" class="text-info">Around 23% <u>Off</u> </h5>
+                    </div>
+                    <div>
+                        <img src="./logos/LogVeg.png" alt="Veg" class="imgIcon">
+                        <img src="./logos/Sanitized.jpg" alt="Sanitized" class="imgIcon">
+                        <img src="./logos/delivery-boy.png" alt="Delivery" class="imgIcon">
+                    </div>
+                    <div id="button" class="d-grid">
+                        <button type="button" class="btn btn-success btn-block">Click To Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark border border-1 Footer">
+            <h4 class="text-white text-center">&copy; 2021 Edu! Intern Zahid. All rights reserved</h4>
+        </div>
+    </body>
+
+</html>

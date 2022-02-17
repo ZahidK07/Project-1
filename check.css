@@ -1,0 +1,367 @@
+body {
+    margin: auto;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+#ImageTile {
+    background-image: url(./Meals/BREAK_fast.jpg);
+    background-size: 100% 450px;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+#InfoTile {
+    height: 450px;
+}
+
+#RestoHeader{
+    height: 35px;
+}
+
+.checked {
+    color: rgb(96, 250, 96);
+}
+
+.DeliveryReviews {
+    float: left;
+    margin-right: 43%;
+}
+
+.CustReveiws {}
+
+.imgIcon {
+    height: 35px;
+    margin-top: 30px;
+}
+
+.MealName>h4 {
+    font-size: 32px;
+    margin-top: 35px;
+}
+
+.OldPrice {
+    margin-top: 6%;
+    font-size: 18px;
+}
+
+.Price {
+    font-size: 22px;
+}
+
+#Discount {
+    font-size: 18px;
+}
+
+#button {
+    margin-top: 30px;
+    height: 40px;
+}
+
+.btn-success {
+    font-weight: bold;
+    border-color: rgb(90, 224, 90);
+}
+
+.btn-success:hover {
+    background-color: rgb(90, 224, 90);
+}
+
+.Footer {
+    height: 40px;
+    margin-top: 70px;
+}
+
+.Footer > h4 {
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+
+@media only screen and (max-width:1024px) {
+
+   #ImageTile{
+        margin-left: 20%;
+    }
+
+    #InfoTile {
+        margin-left: 20%;
+    }
+
+    .imgIcon {
+        height: 30px;
+        margin-top: 25px;
+    }
+
+    #button {
+        margin-top: 15px;
+        height: 40px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+   #ImageTile {
+        margin-left: 90px;
+    }
+
+    #InfoTile {
+        margin-left: 90px;
+    }
+
+    .card-title>h2 {
+        font-size: 35px;
+    }
+
+    .DeliveryReviews {
+        margin-right: 200px;
+    }
+
+    .CustReveiws {
+    
+    }
+
+    .MealName > h4 {
+        margin-top: 35px;
+    }
+
+    .OldPrice {
+    
+    }
+
+    .Price {
+     
+    }
+
+
+    .imgIcon {
+        margin-top: 35px;
+        height: 22px;
+    }
+
+    #button {
+        margin-top: 27px;
+    }
+
+
+}
+
+@media only screen and (max-width:430px) {
+
+    #ImageTile {
+        background-image: url(./Meals/BREAK_fast.jpg);
+        background-size: 100% 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        margin-left: 18px;
+    }
+
+    #InfoTile {
+        height: 380px;
+        margin-left: 18px;
+    }
+
+    .DeliveryReviews {
+        margin-right: 30%;
+        font-size: 12px;
+    }
+
+    .CustReveiws {
+        font-size: 12px;
+    }
+
+    .MealName > h4 {
+        font-size: 23px;
+        margin-top: 40px;
+    }
+
+    .OldPrice {
+        margin-top: 7%;
+        font-size: 12px;
+    }
+
+    .Price {
+        font-size: 20px;
+    }
+
+    .imgIcon {
+        height: 17px;
+        margin-top: 22px;
+    }
+
+    #button {
+        margin-top: 20px;
+    }
+
+    #Footer {
+        height: 35px;
+        margin-top: 10%;
+    }
+
+    #Footer>h4 {
+        font-size: 12px;
+        padding-top: 3%;
+    }
+}
+
+@media only screen and (max-width:410px) {
+
+    #ImageTile {
+        background-image: url(./Meals/BREAK_fast.jpg);
+        background-size: 100% 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        margin-left: 18px;
+    }
+
+    #InfoTile {
+        height: 380px;
+        margin-left: 18px;
+    }
+
+    .MealName > h4 {
+        font-size: 23px;
+        margin-top: 42px;
+    }
+
+    .Price {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width:385px) {
+
+    #ImageTile {
+        background-image: url(./Meals/BREAK_fast.jpg);
+        background-size: 100% 250px;
+        height: 250px;
+        margin-left: 15px;
+    }
+
+    #InfoTile {
+        height: 380px;
+        margin-left: 15px;
+    }
+
+    #RestoHeader {
+        height: 37px;
+    }
+
+    .DeliveryReviews {
+        margin-right: 80px;
+
+    }
+
+    .Price {
+        font-size: 22px;
+    }
+
+    .imgIcon {
+        height: 18px;
+        margin-top: 25px;
+    }
+
+    #button {
+        margin-top: 15px;
+    }
+    
+}
+
+@media only screen and (max-width:360px) {
+    
+
+    .DeliveryReviews {
+        margin-right: 22%;
+    }
+
+    .MealName>h4 {
+        font-size: 20px;       
+    }
+
+    .OldPrice {
+        margin-top: 10%;
+    }
+
+    .Price {
+        font-size: 20px;
+    }
+
+    #Discount {
+        font-size: 15px;
+    }
+
+    .Footer > h4 {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width:320px) {
+
+    #ImageTile {
+        background-image: url(./Meals/BREAK_fast.jpg);
+        background-size: 100% 225px;
+        height: 225px;
+        margin-left: 15px;
+    }
+
+    #InfoTile {
+        height: 310px;
+        margin-left: 15px;
+    }
+
+    .card-title>h2 {
+        font-size: 25px;
+    }
+
+    #RestoHeader {
+        height: 30px;
+    }
+
+    .DeliveryReviews {
+        margin-right: 25%;
+        font-size: 10px;
+    }
+
+    .CustReveiws {
+        font-size: 10px;
+    }
+
+
+    .MealName>h4 {
+        font-size: 18px;
+        margin-top: 0%;
+    }
+
+    .Price {
+        font-size: 20px;
+    }
+
+    #Discount {
+        font-size: 12px;
+    }
+
+    .imgIcon {
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    #button {
+        margin-top: 15px;
+    }
+
+    .Footer {
+        height: 40px;
+        margin-top: 10%;
+    }
+
+    .Footer > h4 {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    
+}
